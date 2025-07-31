@@ -43,6 +43,7 @@ class Program
         Console.WriteLine($"\nStory saved as {outputFilename}");
     }
 
+
     //Method 1: BuildCatDictionary
     static Dictionary<string, List<string>> BuildCatDictionary(string filename)
     {
@@ -103,4 +104,4 @@ class Program
 
         return string.Join("\n", newLines);
     }
-}
+}
